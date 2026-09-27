@@ -1,0 +1,1 @@
+Put the supplied SplashVideo.mp4 and generated AppIcon asset catalog here when opening in Xcode.
