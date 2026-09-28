@@ -1,203 +1,203 @@
 {
   "batch_id": "01",
-  "instructions_for_founder": "Generate each transparent flat-vector asset with no baked-in text, then place it at the listed destination path.",
+  "instructions_for_founder": "These are iOS-only premium assets. Generate independently from the Android archive; do not copy Android filenames, prompts, or compositions.",
   "global_style": {
-    "art_style": "flat 2D vector illustration, clean line art, minimal shading",
+    "art_style": "premium editorial 2D vector illustration with subtle layered depth, refined iOS composition",
     "palette": [
-      "#1B6B63",
       "#0D4A44",
+      "#1B6B63",
       "#F5823A",
-      "#FFFFFF"
+      "#D4AF37",
+      "#F7F3EE"
     ],
     "forbidden": [
       "photorealism",
-      "3D render",
       "watermarks",
       "baked-in text",
-      "real human faces/photos",
-      "third-party logos"
+      "third-party logos",
+      "generic stock-photo composition"
     ]
   },
   "images": [
     {
       "id": "img_01",
-      "filename": "il_onboarding_homecare.png",
-      "destination_path": "assets_pending/generated/il_onboarding_homecare.png",
-      "used_on_screen": "shared foundation / relevant feature screen",
+      "filename": "ios_onboarding_care.png",
+      "destination_path": "HomigoCare/Resources/Assets.xcassets/Illustrations/ios_onboarding_care.png",
+      "used_on_screen": "S-02 Onboarding 1/3",
       "background": "transparent",
       "size_hint": "2048x2048",
-      "prompt": "Flat vector illustration of friendly home-care nurse with elderly patient, reassuring healthcare brand mood, teal and orange palette, clean line art, transparent background, no text"
+      "prompt": "Premium iOS SwiftUI illustration: premium editorial home-care moment with nurse and older adult, generous negative space; sophisticated editorial vector style, soft ivory background-safe negative space, deep teal #0D4A44, muted teal #1B6B63, warm coral #F5823A, restrained champagne gold #D4AF37, smooth curves, subtle layered depth but not 3D, transparent background, no text."
     },
     {
       "id": "img_02",
-      "filename": "il_onboarding_booking.png",
-      "destination_path": "assets_pending/generated/il_onboarding_booking.png",
-      "used_on_screen": "shared foundation / relevant feature screen",
+      "filename": "ios_onboarding_verified.png",
+      "destination_path": "HomigoCare/Resources/Assets.xcassets/Illustrations/ios_onboarding_verified.png",
+      "used_on_screen": "S-03 Onboarding 2/3",
       "background": "transparent",
       "size_hint": "2048x2048",
-      "prompt": "Flat vector illustration of calendar with medical cross and location pin, reassuring healthcare brand mood, teal and orange palette, clean line art, transparent background, no text"
+      "prompt": "Premium iOS SwiftUI illustration: premium verified-care shield with subtle medical cross and soft depth; sophisticated editorial vector style, soft ivory background-safe negative space, deep teal #0D4A44, muted teal #1B6B63, warm coral #F5823A, restrained champagne gold #D4AF37, smooth curves, subtle layered depth but not 3D, transparent background, no text."
     },
     {
       "id": "img_03",
-      "filename": "il_onboarding_passport.png",
-      "destination_path": "assets_pending/generated/il_onboarding_passport.png",
-      "used_on_screen": "shared foundation / relevant feature screen",
+      "filename": "ios_onboarding_safety.png",
+      "destination_path": "HomigoCare/Resources/Assets.xcassets/Illustrations/ios_onboarding_safety.png",
+      "used_on_screen": "S-04 Onboarding 3/3",
       "background": "transparent",
       "size_hint": "2048x2048",
-      "prompt": "Flat vector illustration of digital health passport with shield, reassuring healthcare brand mood, teal and orange palette, clean line art, transparent background, no text"
+      "prompt": "Premium iOS SwiftUI illustration: premium location safety scene with route line and home pin; sophisticated editorial vector style, soft ivory background-safe negative space, deep teal #0D4A44, muted teal #1B6B63, warm coral #F5823A, restrained champagne gold #D4AF37, smooth curves, subtle layered depth but not 3D, transparent background, no text."
     },
     {
       "id": "img_04",
-      "filename": "il_empty_bookings.png",
-      "destination_path": "assets_pending/generated/il_empty_bookings.png",
-      "used_on_screen": "shared foundation / relevant feature screen",
+      "filename": "ios_booking_success.png",
+      "destination_path": "HomigoCare/Resources/Assets.xcassets/Illustrations/ios_booking_success.png",
+      "used_on_screen": "P-19 Booking Confirmed",
       "background": "transparent",
       "size_hint": "2048x2048",
-      "prompt": "Flat vector illustration of empty booking clipboard, reassuring healthcare brand mood, teal and orange palette, clean line art, transparent background, no text"
+      "prompt": "Premium iOS SwiftUI illustration: calm celebratory appointment confirmation scene, no confetti or text; sophisticated editorial vector style, soft ivory background-safe negative space, deep teal #0D4A44, muted teal #1B6B63, warm coral #F5823A, restrained champagne gold #D4AF37, smooth curves, subtle layered depth but not 3D, transparent background, no text."
     },
     {
       "id": "img_05",
-      "filename": "il_empty_documents.png",
-      "destination_path": "assets_pending/generated/il_empty_documents.png",
-      "used_on_screen": "shared foundation / relevant feature screen",
+      "filename": "ios_empty_bookings.png",
+      "destination_path": "HomigoCare/Resources/Assets.xcassets/Illustrations/ios_empty_bookings.png",
+      "used_on_screen": "P-12 My Bookings empty state",
       "background": "transparent",
       "size_hint": "2048x2048",
-      "prompt": "Flat vector illustration of secure document folder, reassuring healthcare brand mood, teal and orange palette, clean line art, transparent background, no text"
+      "prompt": "Premium iOS SwiftUI illustration: quiet premium calendar folio with one gentle accent mark; sophisticated editorial vector style, soft ivory background-safe negative space, deep teal #0D4A44, muted teal #1B6B63, warm coral #F5823A, restrained champagne gold #D4AF37, smooth curves, subtle layered depth but not 3D, transparent background, no text."
     },
     {
       "id": "img_06",
-      "filename": "il_empty_notifications.png",
-      "destination_path": "assets_pending/generated/il_empty_notifications.png",
-      "used_on_screen": "shared foundation / relevant feature screen",
+      "filename": "ios_empty_passport.png",
+      "destination_path": "HomigoCare/Resources/Assets.xcassets/Illustrations/ios_empty_passport.png",
+      "used_on_screen": "P-14 Health Passport empty state",
       "background": "transparent",
       "size_hint": "2048x2048",
-      "prompt": "Flat vector illustration of notification bell with small heart, reassuring healthcare brand mood, teal and orange palette, clean line art, transparent background, no text"
+      "prompt": "Premium iOS SwiftUI illustration: premium translucent health passport and secure lock; sophisticated editorial vector style, soft ivory background-safe negative space, deep teal #0D4A44, muted teal #1B6B63, warm coral #F5823A, restrained champagne gold #D4AF37, smooth curves, subtle layered depth but not 3D, transparent background, no text."
     },
     {
       "id": "img_07",
-      "filename": "il_empty_reviews.png",
-      "destination_path": "assets_pending/generated/il_empty_reviews.png",
-      "used_on_screen": "shared foundation / relevant feature screen",
+      "filename": "ios_empty_wallet.png",
+      "destination_path": "HomigoCare/Resources/Assets.xcassets/Illustrations/ios_empty_wallet.png",
+      "used_on_screen": "P-16 Wallet empty state",
       "background": "transparent",
       "size_hint": "2048x2048",
-      "prompt": "Flat vector illustration of review stars and speech bubble, reassuring healthcare brand mood, teal and orange palette, clean line art, transparent background, no text"
+      "prompt": "Premium iOS SwiftUI illustration: minimal leather-like wallet silhouette with medical cross; sophisticated editorial vector style, soft ivory background-safe negative space, deep teal #0D4A44, muted teal #1B6B63, warm coral #F5823A, restrained champagne gold #D4AF37, smooth curves, subtle layered depth but not 3D, transparent background, no text."
     },
     {
       "id": "img_08",
-      "filename": "il_empty_wallet.png",
-      "destination_path": "assets_pending/generated/il_empty_wallet.png",
-      "used_on_screen": "shared foundation / relevant feature screen",
+      "filename": "ios_empty_messages.png",
+      "destination_path": "HomigoCare/Resources/Assets.xcassets/Illustrations/ios_empty_messages.png",
+      "used_on_screen": "P-24 Messages empty state",
       "background": "transparent",
       "size_hint": "2048x2048",
-      "prompt": "Flat vector illustration of wallet with teal medical cross, reassuring healthcare brand mood, teal and orange palette, clean line art, transparent background, no text"
+      "prompt": "Premium iOS SwiftUI illustration: two refined conversation bubbles with soft heart accent; sophisticated editorial vector style, soft ivory background-safe negative space, deep teal #0D4A44, muted teal #1B6B63, warm coral #F5823A, restrained champagne gold #D4AF37, smooth curves, subtle layered depth but not 3D, transparent background, no text."
     },
     {
       "id": "img_09",
-      "filename": "il_empty_chat.png",
-      "destination_path": "assets_pending/generated/il_empty_chat.png",
-      "used_on_screen": "shared foundation / relevant feature screen",
+      "filename": "ios_empty_reviews.png",
+      "destination_path": "HomigoCare/Resources/Assets.xcassets/Illustrations/ios_empty_reviews.png",
+      "used_on_screen": "P-23 Reviews empty state",
       "background": "transparent",
       "size_hint": "2048x2048",
-      "prompt": "Flat vector illustration of chat bubbles with heart, reassuring healthcare brand mood, teal and orange palette, clean line art, transparent background, no text"
+      "prompt": "Premium iOS SwiftUI illustration: single outlined review card and star, balanced composition; sophisticated editorial vector style, soft ivory background-safe negative space, deep teal #0D4A44, muted teal #1B6B63, warm coral #F5823A, restrained champagne gold #D4AF37, smooth curves, subtle layered depth but not 3D, transparent background, no text."
     },
     {
       "id": "img_10",
-      "filename": "il_empty_professional.png",
-      "destination_path": "assets_pending/generated/il_empty_professional.png",
-      "used_on_screen": "shared foundation / relevant feature screen",
+      "filename": "ios_verification_pending.png",
+      "destination_path": "HomigoCare/Resources/Assets.xcassets/Illustrations/ios_verification_pending.png",
+      "used_on_screen": "PR-05 Verification Pending",
       "background": "transparent",
       "size_hint": "2048x2048",
-      "prompt": "Flat vector illustration of professional badge and stethoscope, reassuring healthcare brand mood, teal and orange palette, clean line art, transparent background, no text"
+      "prompt": "Premium iOS SwiftUI illustration: professional document folder with elegant pending shield; sophisticated editorial vector style, soft ivory background-safe negative space, deep teal #0D4A44, muted teal #1B6B63, warm coral #F5823A, restrained champagne gold #D4AF37, smooth curves, subtle layered depth but not 3D, transparent background, no text."
     },
     {
       "id": "img_11",
-      "filename": "il_badge_certified.png",
-      "destination_path": "assets_pending/generated/il_badge_certified.png",
-      "used_on_screen": "shared foundation / relevant feature screen",
+      "filename": "ios_category_nursing.png",
+      "destination_path": "HomigoCare/Resources/Assets.xcassets/Illustrations/ios_category_nursing.png",
+      "used_on_screen": "P-11 Home categories",
       "background": "transparent",
       "size_hint": "2048x2048",
-      "prompt": "Flat vector illustration of certified circular badge, reassuring healthcare brand mood, teal and orange palette, clean line art, transparent background, no text"
+      "prompt": "Premium iOS SwiftUI illustration: premium nursing category illustration, stethoscope and care hands; sophisticated editorial vector style, soft ivory background-safe negative space, deep teal #0D4A44, muted teal #1B6B63, warm coral #F5823A, restrained champagne gold #D4AF37, smooth curves, subtle layered depth but not 3D, transparent background, no text."
     },
     {
       "id": "img_12",
-      "filename": "il_badge_excellence.png",
-      "destination_path": "assets_pending/generated/il_badge_excellence.png",
-      "used_on_screen": "shared foundation / relevant feature screen",
+      "filename": "ios_category_rehab.png",
+      "destination_path": "HomigoCare/Resources/Assets.xcassets/Illustrations/ios_category_rehab.png",
+      "used_on_screen": "P-11 Home categories",
       "background": "transparent",
       "size_hint": "2048x2048",
-      "prompt": "Flat vector illustration of excellence badge with subtle star, reassuring healthcare brand mood, teal and orange palette, clean line art, transparent background, no text"
+      "prompt": "Premium iOS SwiftUI illustration: premium physiotherapy illustration, supported human movement; sophisticated editorial vector style, soft ivory background-safe negative space, deep teal #0D4A44, muted teal #1B6B63, warm coral #F5823A, restrained champagne gold #D4AF37, smooth curves, subtle layered depth but not 3D, transparent background, no text."
     },
     {
       "id": "img_13",
-      "filename": "il_badge_elite.png",
-      "destination_path": "assets_pending/generated/il_badge_elite.png",
-      "used_on_screen": "shared foundation / relevant feature screen",
+      "filename": "ios_category_pharmacy.png",
+      "destination_path": "HomigoCare/Resources/Assets.xcassets/Illustrations/ios_category_pharmacy.png",
+      "used_on_screen": "P-11 Home categories",
       "background": "transparent",
       "size_hint": "2048x2048",
-      "prompt": "Flat vector illustration of elite gold badge, reassuring healthcare brand mood, teal and orange palette, clean line art, transparent background, no text"
+      "prompt": "Premium iOS SwiftUI illustration: premium pharmacy illustration, medicine container and cross; sophisticated editorial vector style, soft ivory background-safe negative space, deep teal #0D4A44, muted teal #1B6B63, warm coral #F5823A, restrained champagne gold #D4AF37, smooth curves, subtle layered depth but not 3D, transparent background, no text."
     },
     {
       "id": "img_14",
-      "filename": "il_category_nursing.png",
-      "destination_path": "assets_pending/generated/il_category_nursing.png",
-      "used_on_screen": "shared foundation / relevant feature screen",
+      "filename": "ios_category_diagnostics.png",
+      "destination_path": "HomigoCare/Resources/Assets.xcassets/Illustrations/ios_category_diagnostics.png",
+      "used_on_screen": "P-11 Home categories",
       "background": "transparent",
       "size_hint": "2048x2048",
-      "prompt": "Flat vector illustration of stethoscope and nursing cross, reassuring healthcare brand mood, teal and orange palette, clean line art, transparent background, no text"
+      "prompt": "Premium iOS SwiftUI illustration: premium diagnostics illustration, lab glassware and pulse; sophisticated editorial vector style, soft ivory background-safe negative space, deep teal #0D4A44, muted teal #1B6B63, warm coral #F5823A, restrained champagne gold #D4AF37, smooth curves, subtle layered depth but not 3D, transparent background, no text."
     },
     {
       "id": "img_15",
-      "filename": "il_category_physiotherapy.png",
-      "destination_path": "assets_pending/generated/il_category_physiotherapy.png",
-      "used_on_screen": "shared foundation / relevant feature screen",
+      "filename": "ios_badge_certified.png",
+      "destination_path": "HomigoCare/Resources/Assets.xcassets/Illustrations/ios_badge_certified.png",
+      "used_on_screen": "P-15 Professional detail",
       "background": "transparent",
       "size_hint": "2048x2048",
-      "prompt": "Flat vector illustration of gentle movement figure and leaf, reassuring healthcare brand mood, teal and orange palette, clean line art, transparent background, no text"
+      "prompt": "Premium iOS SwiftUI illustration: refined certified badge with clean circular geometry; sophisticated editorial vector style, soft ivory background-safe negative space, deep teal #0D4A44, muted teal #1B6B63, warm coral #F5823A, restrained champagne gold #D4AF37, smooth curves, subtle layered depth but not 3D, transparent background, no text."
     },
     {
       "id": "img_16",
-      "filename": "il_category_pharmacy.png",
-      "destination_path": "assets_pending/generated/il_category_pharmacy.png",
-      "used_on_screen": "shared foundation / relevant feature screen",
+      "filename": "ios_badge_excellence.png",
+      "destination_path": "HomigoCare/Resources/Assets.xcassets/Illustrations/ios_badge_excellence.png",
+      "used_on_screen": "P-15 Professional detail",
       "background": "transparent",
       "size_hint": "2048x2048",
-      "prompt": "Flat vector illustration of medicine bottle and cross, reassuring healthcare brand mood, teal and orange palette, clean line art, transparent background, no text"
+      "prompt": "Premium iOS SwiftUI illustration: refined excellence badge with restrained star detail; sophisticated editorial vector style, soft ivory background-safe negative space, deep teal #0D4A44, muted teal #1B6B63, warm coral #F5823A, restrained champagne gold #D4AF37, smooth curves, subtle layered depth but not 3D, transparent background, no text."
     },
     {
       "id": "img_17",
-      "filename": "il_category_lab.png",
-      "destination_path": "assets_pending/generated/il_category_lab.png",
-      "used_on_screen": "shared foundation / relevant feature screen",
+      "filename": "ios_badge_elite.png",
+      "destination_path": "HomigoCare/Resources/Assets.xcassets/Illustrations/ios_badge_elite.png",
+      "used_on_screen": "P-15 Professional detail",
       "background": "transparent",
       "size_hint": "2048x2048",
-      "prompt": "Flat vector illustration of laboratory flask and pulse, reassuring healthcare brand mood, teal and orange palette, clean line art, transparent background, no text"
+      "prompt": "Premium iOS SwiftUI illustration: premium gold elite badge, elegant not flashy; sophisticated editorial vector style, soft ivory background-safe negative space, deep teal #0D4A44, muted teal #1B6B63, warm coral #F5823A, restrained champagne gold #D4AF37, smooth curves, subtle layered depth but not 3D, transparent background, no text."
     },
     {
       "id": "img_18",
-      "filename": "il_admin_verification_empty.png",
-      "destination_path": "assets_pending/generated/il_admin_verification_empty.png",
-      "used_on_screen": "shared foundation / relevant feature screen",
+      "filename": "ios_tracking_route.png",
+      "destination_path": "HomigoCare/Resources/Assets.xcassets/Illustrations/ios_tracking_route.png",
+      "used_on_screen": "P-20 Live Tracking",
       "background": "transparent",
       "size_hint": "2048x2048",
-      "prompt": "Flat vector illustration of empty verification queue illustration, reassuring healthcare brand mood, teal and orange palette, clean line art, transparent background, no text"
+      "prompt": "Premium iOS SwiftUI illustration: minimal live-care route map motif with moving location marker; sophisticated editorial vector style, soft ivory background-safe negative space, deep teal #0D4A44, muted teal #1B6B63, warm coral #F5823A, restrained champagne gold #D4AF37, smooth curves, subtle layered depth but not 3D, transparent background, no text."
     },
     {
       "id": "img_19",
-      "filename": "il_admin_disputes_empty.png",
-      "destination_path": "assets_pending/generated/il_admin_disputes_empty.png",
-      "used_on_screen": "shared foundation / relevant feature screen",
+      "filename": "ios_visit_in_progress.png",
+      "destination_path": "HomigoCare/Resources/Assets.xcassets/Illustrations/ios_visit_in_progress.png",
+      "used_on_screen": "P-21 Visit In Progress",
       "background": "transparent",
       "size_hint": "2048x2048",
-      "prompt": "Flat vector illustration of calm dispute resolution illustration, reassuring healthcare brand mood, teal and orange palette, clean line art, transparent background, no text"
+      "prompt": "Premium iOS SwiftUI illustration: calm in-home care progress illustration with clock and care symbol; sophisticated editorial vector style, soft ivory background-safe negative space, deep teal #0D4A44, muted teal #1B6B63, warm coral #F5823A, restrained champagne gold #D4AF37, smooth curves, subtle layered depth but not 3D, transparent background, no text."
     },
     {
       "id": "img_20",
-      "filename": "il_web_hero.png",
-      "destination_path": "assets_pending/generated/il_web_hero.png",
-      "used_on_screen": "shared foundation / relevant feature screen",
+      "filename": "ios_professional_activation.png",
+      "destination_path": "HomigoCare/Resources/Assets.xcassets/Illustrations/ios_professional_activation.png",
+      "used_on_screen": "PR-09 Profile Activation",
       "background": "transparent",
       "size_hint": "2048x2048",
-      "prompt": "Flat vector illustration of warm home healthcare scene, reassuring healthcare brand mood, teal and orange palette, clean line art, transparent background, no text"
+      "prompt": "Premium iOS SwiftUI illustration: professional profile activation illustration with availability toggle motif; sophisticated editorial vector style, soft ivory background-safe negative space, deep teal #0D4A44, muted teal #1B6B63, warm coral #F5823A, restrained champagne gold #D4AF37, smooth curves, subtle layered depth but not 3D, transparent background, no text."
     }
   ]
 }
