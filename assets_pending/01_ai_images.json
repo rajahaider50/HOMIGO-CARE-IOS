@@ -102,12 +102,12 @@
     },
     {
       "id": "img_10",
-      "filename": "ios_verification_pending.png",
-      "destination_path": "HomigoCare/Resources/Assets.xcassets/Illustrations/ios_verification_pending.png",
-      "used_on_screen": "PR-05 Verification Pending",
+      "filename": "ios_empty_notifications.png",
+      "destination_path": "HomigoCare/Resources/Assets.xcassets/Illustrations/ios_empty_notifications.png",
+      "used_on_screen": "P-22 Notifications empty state",
       "background": "transparent",
       "size_hint": "2048x2048",
-      "prompt": "Premium iOS SwiftUI illustration: professional document folder with elegant pending shield; sophisticated editorial vector style, soft ivory background-safe negative space, deep teal #0D4A44, muted teal #1B6B63, warm coral #F5823A, restrained champagne gold #D4AF37, smooth curves, subtle layered depth but not 3D, transparent background, no text."
+      "prompt": "Premium iOS empty notifications illustration: a calm notification list with bell and care accents, no unread alerts, refined editorial vector style, transparent background, no text."
     },
     {
       "id": "img_11",
